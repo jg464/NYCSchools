@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NYC Schools</string>
+    <string name="schoolNameString">School name:</string>
+    <string name="retryString">Retry Download</string>
+    <string name="scoreScreenTitle">SAT Scores</string>
+</resources>

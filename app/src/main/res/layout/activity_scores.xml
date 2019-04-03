@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoresActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/schoolNamePromptBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:text="@string/schoolNameString" />
+
+        <TextView
+            android:id="@+id/schoolNameBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp" />
+
+        <TextView
+            android:id="@+id/mathScoreBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp" />
+
+        <TextView
+            android:id="@+id/writingScoreBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp" />
+
+        <TextView
+            android:id="@+id/readingScoreBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
